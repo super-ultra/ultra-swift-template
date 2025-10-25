@@ -1,0 +1,26 @@
+--swiftversion 6.2
+
+--commas inline
+--extension-acl on-declarations
+--ifdef indent
+--indent 4
+--maxwidth 120
+--self init-only
+--stripunusedargs closure-only
+--trimwhitespace always
+--wraparguments before-first
+--wrapcollections before-first
+
+--enable hoistPatternLet
+--enable isEmpty
+--enable redundantNilInit
+--enable redundantReturn
+--enable redundantSelf
+--enable redundantType
+--enable sortedImports
+--enable typeSugar
+
+--exclude .build
+--exclude Carthage
+--exclude Pods
+

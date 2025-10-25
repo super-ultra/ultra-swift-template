@@ -1,0 +1,11 @@
+#!/bin/sh
+
+root_dir=$(git rev-parse --show-toplevel)
+
+# Run linter
+$root_dir/tools/swift/lint/lint_swift_on_push.sh
+
+if [ $? -ne 0 ]
+then 
+    exit 1
+fi
