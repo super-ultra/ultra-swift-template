@@ -1,5 +1,7 @@
 # Swift Template
 
-```sh
+How to use:
 
+```sh
+./rename.sh NewNamePascalCase
 ```
