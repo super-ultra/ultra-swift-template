@@ -9,5 +9,4 @@ struct Application: App {
             MainView(model: DefaultMainViewModel())
         }
     }
-
 }

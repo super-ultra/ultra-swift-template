@@ -1,11 +1,9 @@
 import Foundation
 
-protocol MainViewModel {
-}
+protocol MainViewModel {}
 
 final class DefaultMainViewModel: MainViewModel {
-    init() {
-    }
+    init() {}
 }
 
 // MARK: - Preview

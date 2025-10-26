@@ -8,11 +8,9 @@ struct MainView: View {
 
     var body: some View {
         NavigationStack(path: $navigationManager.path) {
-            VStack {
-
-            }
-            .background(Color.Assets.background)
-            .navigationTitle(String.Main.title)
+            VStack {}
+                .background(Color.Assets.background)
+                .navigationTitle(String.Main.title)
         }
     }
 

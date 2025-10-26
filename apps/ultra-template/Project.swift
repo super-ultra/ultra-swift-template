@@ -12,13 +12,13 @@ let project = Project(
                 with: [
                     "UILaunchScreen": [
                         "UIColorName": "",
-                        "UIImageName": "",
-                    ],
+                        "UIImageName": ""
+                    ]
                 ]
             ),
             buildableFolders: [
                 "UltraTemplate/Sources",
-                "UltraTemplate/Resources",
+                "UltraTemplate/Resources"
             ],
             dependencies: [
                 .external(name: "UltraTemplateAssets"),
@@ -35,6 +35,6 @@ let project = Project(
                 "UltraTemplate/Tests"
             ],
             dependencies: [.target(name: "UltraTemplate")]
-        ),
+        )
     ]
 )

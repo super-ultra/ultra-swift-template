@@ -1,7 +1,6 @@
 import SwiftUI
 
 extension Color {
-
     public init(hexRGB: String) {
         var str = hexRGB.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         if str.hasPrefix("#") { str.removeFirst() }
