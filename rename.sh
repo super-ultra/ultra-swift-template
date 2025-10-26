@@ -6,8 +6,8 @@ OLD_KEBAB="ultra-template"
 OLD_SNAKE="ultra_template"
 
 usage() {
-  echo "Usage: $(basename "$0") NewNamePascalCase"
-  echo "Example: $(basename "$0") WalletCreator"
+  echo "Usage: $(basename "$0") MyNewProject"
+  echo "Example: $(basename "$0") MyNewProject"
 }
 
 [[ ${1:-} != "" ]] || { usage; exit 1; }
